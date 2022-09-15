@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetWhoisCLI", "DotnetWhoisCLI\DotnetWhoisCLI.csproj", "{AB1984C8-735B-423F-A699-F0CAD2F36154}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetWhoisCLI.Test", "DotnetWhoisCLI.Test\DotnetWhoisCLI.Test.csproj", "{2C977C9D-64C5-4AB5-8F98-A2FD9EA0AA4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB1984C8-735B-423F-A699-F0CAD2F36154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1984C8-735B-423F-A699-F0CAD2F36154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1984C8-735B-423F-A699-F0CAD2F36154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1984C8-735B-423F-A699-F0CAD2F36154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C977C9D-64C5-4AB5-8F98-A2FD9EA0AA4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C977C9D-64C5-4AB5-8F98-A2FD9EA0AA4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C977C9D-64C5-4AB5-8F98-A2FD9EA0AA4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C977C9D-64C5-4AB5-8F98-A2FD9EA0AA4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20FE34ED-CE65-448F-8CAF-9F271B143CB0}
+	EndGlobalSection
+EndGlobal

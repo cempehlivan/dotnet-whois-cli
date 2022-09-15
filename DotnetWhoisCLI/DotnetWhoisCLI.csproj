@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<AssemblyName>$(MSBuildProjectName)</AssemblyName>
+		<PackageId>$(MSBuildProjectName)</PackageId>
+		<Title>DotnetWhoisCLI</Title>
+		<PackAsTool>True</PackAsTool>
+		<ToolCommandName>whois</ToolCommandName>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>whois</PackageTags>
+		<Copyright>2022 - Cem Pehlivan</Copyright>
+		<PackageProjectUrl>https://github.com/cempehlivan/dotnet-whois-cli</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/cempehlivan/dotnet-whois-cli</RepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageIcon>icon.jpg</PackageIcon>
+	</PropertyGroup>
+	<ItemGroup>
+	  <None Include="..\icon.jpg">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Include="..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+</Project>

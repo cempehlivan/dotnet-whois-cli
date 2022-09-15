@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DotnetWhoisCLI": {
+      "commandName": "Project",
+      "commandLineArgs": "github.com"
+    }
+  }
+}
