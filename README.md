@@ -8,6 +8,11 @@ Install the dotnet package globally with command line:
 dotnet tool install -g DotnetWhoisCLI 
 ```
 
+If you are using Ubuntu, you may need to define the dotnet tools folder as environment variable.
+``` bash
+export PATH=$PATH:$HOME/.dotnet/tools
+```
+
 Example whois lookup with command line:
 ```
 whois github.com
