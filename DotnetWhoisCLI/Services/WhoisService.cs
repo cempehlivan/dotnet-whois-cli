@@ -53,15 +53,22 @@ namespace DotnetWhoisCLI.Services
 
         public static string GetDomainWhoisInfo(string domain)
         {
-            string whoisServer = GetTldWhoisServer(domain);
-
-            if (!string.IsNullOrWhiteSpace(whoisServer))
+            try
             {
-                string resp = GetWhoisInformation(whoisServer, domain);
+                string whoisServer = GetTldWhoisServer(domain);
 
-                return resp;
+                if (!string.IsNullOrWhiteSpace(whoisServer))
+                {
+                    string resp = GetWhoisInformation(whoisServer, domain);
+
+                    return resp;
+                }
+                else
+                {
+                    return "Failed to query on whois server. Please try again later.";
+                }
             }
-            else
+            catch
             {
                 return "Failed to query on whois server. Please try again later.";
             }
